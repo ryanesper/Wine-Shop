@@ -1,0 +1,100 @@
+body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:#1F1C19;
+    margin: auto;
+}
+#wrapper{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: #110E0E;
+    margin: auto;
+    top: 232px;
+}
+#loginadmin{
+    position: relative;
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    bottom: 100px;
+}
+#lala{
+    position: absolute;
+    left: 125px;
+}
+#wrapper #loginadmin #form{
+    position: relative;
+    top: 130px;
+    height: 150px;
+    font-family: arial;
+    color: white;
+    margin: auto;
+}
+#loginform{
+    position: relative;
+    margin: auto;
+    top: 10px;
+    width: 280px;
+    height: 100px;
+}
+#wrapper #loginadmin #form h3{
+    font-weight: normal;
+}
+#wrapper #loginadmin #form #i1, #i0{
+    border-radius: 5%;
+    border-style: none;
+    padding: 5px;
+}  
+#wrapper #loginadmin #form #i0{
+    position: relative;
+    left: 5px;
+}  
+#wrapper #loginadmin #form #i1{
+    margin-top: 10px;
+    position: relative;
+    left: 9px;
+}  
+#wrapper #loginadmin #form #i2{
+    margin-top: 5px;
+    border-radius: 3%;
+    position: relative;
+    border-style: none;
+    top: 5px;
+    left: 88px;
+}  
+#wrapper #loginadmin #form #i3{
+    margin-top: 5px;
+    border-radius: 3%;
+    position: relative;
+    border-style: none;
+    top: 5px;
+    left: 203px;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

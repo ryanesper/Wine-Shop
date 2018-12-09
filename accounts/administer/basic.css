@@ -1,0 +1,769 @@
+body{
+position: relative;
+width: 100%;
+background-color:#110E0E;
+margin: auto;
+font-family: arial;
+}
+#wrapper{
+width: 85%;
+position: absolute;
+background-color: #1F1C19;
+margin: 50 0 0 202;
+}
+#uwrapper{
+width: 85%;
+height: 600px;
+position: absolute;
+background-color: #1F1C19;
+margin: 50 0 0 202;
+}
+#header-container{
+position: absolute;
+width: 100%;
+height: 50px;
+margin: auto;
+background-color: #181514;
+}
+#side{
+position: absolute;
+float: left;
+height: 400px;
+width: 15%;
+margin-top: 50px;
+}
+#content-container{
+margin: auto;
+width: 95%;
+height: 1050px;
+position: relative;
+}
+#footer-container{
+margin: auto;
+width: 950px;
+height: 100px;
+position: relative;
+}
+
+
+
+ /*   START HEADER   */
+
+
+
+#optionmenu{
+margin: 0;
+padding: 0;
+list-style-type: none;
+position: relative;
+right: 410px;
+top: 12px;
+}
+#optionmenu li{
+float: right;
+
+}
+#optionmenu li a{
+display: block;
+text-decoration: none;
+padding: 10px 10px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+color: aliceblue;
+}
+#optionmenu li a:hover{
+background-color: #1F1C19;
+color: #f2ab22;
+}
+#optionmenu li #hmenu{
+background-color: #1F1C19;
+color: #f2ab22;
+}
+
+
+
+
+
+#adminprofile {
+    position: relative;
+    left: 1150px;
+    display: inline-block;
+    width: 160px;
+    padding-bottom: 5px;
+}
+#adminprofile:hover {
+    background-color: #1F1C19;
+}
+#adminprofile img, h3{
+    float: left;
+}
+#adminprofile #spic{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 5px;
+    left: 15px;
+}
+#adminprofile h3{
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+    left: 25px;
+}
+
+
+#adminprofile:hover #adminprofileform {
+    display: block;
+    z-index: 1;
+}
+
+#adminprofileform {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 1px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+#adminprofileformt{
+    height: 200px;
+    width: 200px;
+    border-bottom: 1px solid #474441;
+    background-color: #56514C;
+}
+#adminprofileformt #lpic{
+    border-radius: 50%;
+    position: relative;
+    margin-left: 42px;
+    top: 5px;
+}
+#adminprofileformt h4, p{
+    position: relative;
+    top: 20px;
+    color: #CED0D3;
+    font-family: arial;
+    line-height: 3px;
+}
+#adminprofileformb{
+    height: 50px;
+    width: 200px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #403D3B;
+}
+#adminprofileformb a{
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+    background-color: #252321;
+    padding: 8 17;
+    width: 60px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+#adminprofileformb a:hover{
+    background-color: #333130;
+}
+
+
+/*END HEADER*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*START VIEW PRODUCTS*/
+
+#content-container #box101{
+position: relative;
+left: 22px;
+height: 500px;
+width: 260px;
+top: 50px;
+display: inline-block;
+}
+#product-container{
+position: relative;
+margin: auto;
+width: 210px;
+height: 460px;
+border-bottom: 1px solid #474441;
+}
+#picture-container{
+margin: 0;
+padding: 0;
+}
+#picture-container img{
+background: #3b3830;
+}
+#product-info{
+height: 150px;
+position: relative;
+}
+h5{
+margin: 10 0 0 0;
+position: absolute;
+color: white;
+font: normal 14px "Arial";
+}
+#comment{
+position: absolute;
+top: 20px;
+height: 40px;
+color: #8a8989;
+font: 12px "Arial";
+line-height: 18px;
+overflow: hidden;
+}
+#price{
+color: #f2ab22;
+font-size: 18px;
+position: absolute;
+top: 65px;
+}
+#clickbutton{
+position: absolute;
+font: bold 12px "Arial" ;
+padding: 10 12px;
+top: 105px;
+text-decoration: none;
+color: white;
+display: block;
+background-image: url("pics/tail-btn-2.gif");
+}
+#clickbutton:hover{
+background: #f2ab22;
+}
+#clickbutton1{
+position: absolute;
+font: bold 12px "Arial" ;
+padding: 10 12px;
+top: 105px;
+left: 60px;
+text-decoration: none;
+color: white;
+display: block;
+background-image: url("pics/tail-btn-2.gif");
+}
+#clickbutton1:hover{
+background: #f2ab22;
+}
+#viewbutton{
+position: absolute;
+text-decoration: none;
+font: bold 12px "Arial" ;
+padding: 10 7;
+color: white;
+display: block;
+background-image: url("pics/tail-btn.gif");
+top: 105px;
+left: 158px;
+}
+#viewbutton:hover{
+background:#000000
+}
+
+/*END VIEW PRODUCTS*/
+
+
+
+
+
+
+
+/*START ADD PRODUCT*/
+
+#content-container #prodbar h2{
+    padding: 8px 11px 6px 0;
+    font-size: 23px;
+    line-height: 26px;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+#content-container #prodbar h3{
+    text-decoration: none;
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 60px;
+}
+#content-container #prodbar h3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+    
+#content-container #addform{
+    position: relative;
+    top: 30px;
+    padding: 30px;
+    width: 70%;
+    height: 720px;
+    background-color: #1C1917;
+}
+#content-container #addform div p{
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+    font-family: arial;
+    color: white;
+}
+#content-container #addform div input{
+    position: relative;
+    top: 20px;
+    padding: 10px 10px;
+    width: 500px;
+    border: 1px solid #BBBBBB;
+    border-radius: 5%;
+}
+#content-container #addform div #description{
+    position: relative;
+    top: 20px;
+    width: 500px;
+    height: 150px;
+    padding: 10px 10px;
+    border-radius: 5%;
+    overflow: auto;
+}
+#content-container #addform div #selectcategory{
+    position: relative;
+    top: 20px;
+    width: 500px;
+    padding: 10px 10px;
+    border-radius: 5%;
+}
+#content-container #addform #asubmit{
+    position: relative;
+    float: right;
+    padding:38px 60px;;
+    font-family: arial;
+    bottom: 70px;
+    right: 40px;
+    border-style: none;
+    font-weight: bold;
+    color: white;
+    background-color: #8E914E;
+    font-size: 20px;
+    border-radius: 3px;
+}
+#content-container #addform #asubmit:hover{
+    background-color: #f2ab22;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/*END ADD PRODUCT*/
+
+
+
+
+/*START VIEW STOCKS*/
+
+#prodstocks0{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+height: 70px;
+background-color: #8E914E;
+font-weight: bold;
+color: antiquewhite;
+}
+#prodstocks{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+height: 100px;
+color: azure;
+}
+#prodstocks0 li, #prodstocks li{
+float: left;
+margin-left: 11px;
+}
+#prodstocks li input{
+border-style: none;
+background-color: gray;
+color: aliceblue;
+}
+#attrib1, #attrib2, #attrib3, #attrib4, #attrib5, #attrib6, #attrib7, #attrib8{
+position: relative;
+top: 25px;
+}
+#attrib11, #attrib31, #attrib41, #attrib51, #attrib61, #attrib71, #attrib81{
+position: relative;
+top: 45px;
+}
+#attrib11{
+width: 100px;
+}
+#attrib1{
+width: 125px;
+}
+#attrib21{
+width: 130px;
+}
+#attrib2{
+width: 105px;
+}
+#attrib31, #attrib3{
+width: 140px;
+}
+#attrib41, #attrib4{
+width: 150px;
+}
+#attrib51, #attrib5{
+width: 120px;
+}
+#attrib61, #attrib6{
+width: 100px;
+}
+#attrib71, #attrib7{
+width: 200px;
+}
+
+#attrib81 a{
+    display: block;
+    padding: 3px 6px;
+    background-color: #808080;
+    color: azure;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#prodstocks:nth-child(even){
+background-color: #33302D;
+}
+
+
+/*END VIEW STOCKS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*START SIDE MENU*/
+
+#side ul{
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 205px;
+}
+
+#side ul li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: normal;
+}
+#side ul li #hover{
+    background-color: #1F1C19; 
+    border-left: 3px solid white;
+    color: #f2ab22;
+}
+#side ul li a:hover{
+    background-color: #1F1C19; 
+    border-left: 3px solid white;
+    color: #f2ab22;
+}
+#side img{
+    width: 140%;
+    position: absolute;
+    bottom: 400px;
+    left: 202px;
+}
+
+/*END SIDE MENU*/
+
+
+
+
+
+/*START FULL VIEW AND EDIT/UPDATE PRODUCTS*/
+
+
+#vcontent-container{
+margin: auto;
+width: 95%;
+height: 300px;
+position: relative;
+}
+#vcontent-container #vprodbar h2{
+    padding: 8px 11px 6px 0;
+    font-size: 23px;
+    line-height: 26px;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+#vcontent-container #vprodbar h3{
+    text-decoration: none;
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 60px;
+}
+#vcontent-container #vprodbar h3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+#vcontent-container #vbox101{
+    position: relative;
+    height: 500px;
+    width: 1103px;
+}
+#vcontent-container #vbox101 #vpicture-container{
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    background-color: #3b3830;
+}
+#vcontent-container #vbox101 #vpicture-container #uimage{
+    position: absolute;
+}
+#vcontent-container #vbox101 #vinformation-container{
+    position: absolute;
+    height: 500px;
+    width: 693px;
+    left: 400px;
+}
+#vcontent-container #vbox101 #vpicture-container, #vcontent-container #vbox101 #vinformation-container{
+    display: inline-block;
+}
+#vcontent-container #vbox101 #vinformation-container #vname{
+    width: 693px;
+    height: 50px;
+}
+#vcontent-container #vbox101 #vinformation-container #vname h1{
+    position: absolute;
+    font-family: arial;
+    color: white;
+    font-weight: normal;
+    left: 290px;
+    margin: auto;
+}
+#vcontent-container #vbox101 #vinformation-container #vname input{
+    height: 48px;
+    width: 550px;
+    border-style: none;
+    background-color: #1F1C19;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+#vcontent-container #vbox101 #vinformation-container #vdescription{
+    width: 693px;
+    height: 298px;
+    border-top: 1px solid #474441;
+    border-bottom: 1px solid #474441;
+    overflow: hidden;
+}
+#vcontent-container #vbox101 #vinformation-container #udescription{
+    width: 693px;
+    height: 298px;
+    overflow: hidden;
+}
+#vcontent-container #vbox101 #vinformation-container #vdescription h5{
+    font-size: 16px;
+}
+#vcontent-container #vbox101 #vinformation-container #vdescription p{
+    color: #8a8989;
+    width: 680px;
+    font-size: 14px;
+    height: 250px;
+    overflow: hidden;
+    padding: 10 5 10 10px;
+    line-height: 15px;
+}
+#vcontent-container #vbox101 #vinformation-container #vdescription textarea, #udescription textarea{
+    position: relative;
+    top: 32px;
+    color: #8a8989;
+    width: 550px;
+    font-size: 14px;
+    height: 265px;
+    overflow: hidden;
+    padding: 10 5 10 10px;
+    line-height: 15px;
+    border-style: none;
+    background-color: #1F1C19;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+#vcontent-container #vbox101 #vinformation-container #vquantity{
+    width: 693px;
+    height: 50px;
+}
+#vcontent-container #vbox101 #vinformation-container #vquantity p{
+    position: absolute;
+    top: 360px;
+    font-style: oblique;
+    color: azure;
+    font-size: 16px;
+}
+#vcontent-container #vbox101 #vinformation-container #vquantity input{
+    height: 48px;
+    width: 550px;
+    border-style: none;
+    background-color: #1F1C19;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+#vcontent-container #vbox101 #vinformation-container #vmanufacturer{
+    width: 693px;
+    height: 50px;
+    background-image: url("pics/tail-btn.gif");
+}
+#vcontent-container #vbox101 #vinformation-container #umanufacturer{
+    width: 550px;
+    height: 50px;
+    border-style: none;
+    border-radius: 2px;
+}
+#vcontent-container #vbox101 #vinformation-container #vmanufacturer p{
+    position: absolute;
+    top: 404px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#vcontent-container #vbox101 #vinformation-container #vmanufacturer input{
+    height: 48px;
+    width: 550px;
+    border-style: none;
+    background-color: #1F1C19;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#vcontent-container #vbox101 #vinformation-container #umanufacturer{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1F1C19;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+#vcontent-container #vbox101 #vinformation-container #vprice{
+    width: 693px;
+    height: 50px;
+}
+#vcontent-container #vbox101 #vinformation-container #vprice p{
+    position: absolute;
+    top: 450px;
+    color: #f2ab22;
+    font-size: 22px;
+}
+#vcontent-container #vbox101 #vinformation-container #vprice input{
+    height: 48px;
+    width: 550px;
+    border-style: none;
+    background-color: #1F1C19;
+    border-bottom: 1px solid gray;
+    margin-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+#vcontent-container #vbox101 #vinformation-container #btn-container{
+    position: absolute;
+    bottom: 140px;
+    float: right;
+    right: 209px;
+}
+#vcontent-container #vbox101 #vinformation-container #ubtn-container{
+    position: relative;
+    float: right;
+}
+#uclickbutton1, #uviewbutton{
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    position: relative;
+    bottom: 497px;
+    margin-bottom: 5px;
+    width: 100px;
+    text-align: center;
+    color: azure;
+}
+#uclickbutton1{
+    background-image: url("pics/tail-btn-2.gif");
+    border-style: none;
+    padding: 6px;
+    width: 116px;
+    font-size: 18px;
+}
+#uclickbutton1:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background: #f2ab22;
+}
+#uviewbutton{
+    background-image: url("pics/tail-btn.gif");
+}
+#uviewbutton:hover{
+    background:#000000;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+/*END FULL VIEW AND EDIT/UPDATE PRODUCTS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

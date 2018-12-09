@@ -1,0 +1,369 @@
+body{
+width: 100%;
+height: 2200px;
+background-color:#110E0E;
+margin: auto;
+font-family: arial;
+}
+
+
+
+  /*------------------*/
+ /*   START HEADER   */
+/*------------------*/
+
+
+
+
+#wrapper{
+max-width: 100%;
+height: 1910px;
+position: relative;
+background-color: #1F1C19;
+margin: 38 0 0 0;
+}
+
+#header-container{
+width: 950;
+height: 852px;
+margin: auto;
+}
+#content-container{
+margin: auto;
+width: 950px;
+height: 1050px;
+}
+
+#nav-bar{
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: relative;
+bottom: 28px;
+width: 520px;
+}
+#nav-bar li{
+display: inline-block;
+}
+#nav-bar li + li{
+padding: 0 0 0 25;
+}
+#nav-bar li #nocolor{
+text-decoration: none;
+color: white;
+font-size: 14px;
+}
+#nav-bar li #nocolor:hover{
+color: #f2ab22;
+}
+#homecolor{
+color: #f2ab22;
+text-decoration: none;
+font-size: 14px;
+}
+
+
+
+#logo{
+width: 241px;
+height: 52px;
+position: relative;
+top: 13px;
+left: -1px;
+display: block;
+}
+#search{
+height: 43px;
+width: 350px;
+position: relative;
+left: 315px;
+bottom: 32px;
+}
+#search-button{
+border-style: none;
+}
+#search #search-box{
+border: 1px solid #201e19;
+background: #3b3830;
+height: 38px;
+width: 262px;
+margin: 0 -1px 0 0;
+color: white;
+text-shadow: none;
+padding: 0 10px 0 10px;
+}
+#search #search-button{
+height: 36px;
+background-color: #8E914E;
+color: white;
+}
+#youraccount{
+color: #807a74;
+text-decoration: none;
+position: relative;
+left: 690px;
+bottom: 65px;
+font-size: 14px;
+}
+#youraccount:hover{
+color: #f2ab22;
+}
+#product-nav-bar{
+background-image: url("pics/tail-nav.png");
+height: 58px;
+width: 950px;
+position: relative;
+bottom: 13px;
+}
+#product-menu{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+#product-menu li{
+display: inline-block;
+border-right: 1px solid #5C4E41;
+
+}
+#product-menu li a{
+text-decoration: none;
+color: white;
+display: block;
+padding: 20px 20px;
+}
+#product-menu li a:hover{
+color: #f2ab22;
+}
+#slider{
+height: 492px;
+position: relative;
+top: 17px;
+background-color: gray;
+}
+#banner{
+
+position: relative;
+height: 143px;
+top: 30px;
+}
+#banner a{
+float: left;
+}
+#button1{
+margin-right: 10px;
+}
+#button2{
+margin-right: 10px;
+}
+
+
+
+  /*----------------*/
+ /*   END HEADER   */
+/*----------------*/
+
+  /*----------------*/
+ /*   START BODY   */
+/*----------------*/
+
+
+#fp{
+position: relative;
+height: 45px;
+background-color: #8E914E;
+top: 25px;
+}
+#fptext{
+margin: 0 0 0 5px;
+padding: 13px;
+color: white;
+}
+#products{
+margin: 0;
+padding: 0;
+position: relative;
+top: 30px;
+height: 975px;
+overflow: hidden;
+}
+#products div div a img{
+opacity: 0.8;
+}
+#products div div a img:hover{
+opacity: 1;
+}
+#products div #picture-container:hover{
+background-color: #63564A
+}
+
+
+
+
+
+
+
+
+
+
+
+#hbox{
+position: relative;
+width: 237px;
+height: 480px;
+top: 15px;
+display: inline-block;
+float: left;
+}
+#product-container{
+position: relative;
+width: 210px;
+height: 460px;
+margin: auto;
+border-bottom: 1px solid #474441;
+}
+#product-container + #product-container{
+
+margin: 0;
+}
+#product-container #picture-container{
+width: 210px;
+    height: 293px;
+    display: block;
+    padding-bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    background: #3b3830;
+}
+#picture-container{
+margin: 0;
+padding: 0;
+}
+#product-info{
+height: 132px;
+position: relative;
+top: 293px;
+}
+h5{
+margin: 10 0 0 0;
+position: absolute;
+color: white;
+font: normal 14px "Arial";
+}
+#comment{
+position: absolute;
+top: 20px;
+color: #8a8989;
+font: 12px "Arial";
+line-height: 18px;
+overflow: hidden;
+height: 40px;
+}
+#price{
+color: #f2ab22;
+font-size: 18px;
+position: absolute;
+top: 55px;
+}
+#clickbutton{
+position: absolute;
+font: bold 12px "Arial" ;
+padding: 10 15px;
+top: 105px;
+text-decoration: none;
+color: white;
+display: block;
+background-image: url("pics/tail-btn-2.gif");
+}
+#clickbutton:hover{
+background: #f2ab22;
+}
+#viewbutton{
+position: absolute;
+text-decoration: none;
+font: bold 12px "Arial" ;
+padding: 10 10;
+color: white;
+display: block;
+background-image: url("pics/tail-btn.gif");
+top: 105px;
+left: 100px;
+}
+#viewbutton:hover{
+background:#000000
+}
+
+
+
+  /*--------------*/
+ /*   END BODY   */
+/*--------------*/
+
+  /*------------------*/
+ /*   START FOOTER   */
+/*------------------*/
+
+
+
+#footer-container{
+margin: auto;
+width: 950px;
+height: 300px;
+position: relative;
+}
+#footbox{
+margin-top: 25px;
+width: 190px;
+height: 190px;
+position: relative;
+float: left;
+border-bottom: 1px solid #474441;
+}
+#footer-container div ul li a{
+text-decoration: none;
+color: #807a74;
+}
+#foothead{
+margin: 0;
+padding: 0;
+color: #f2ab22;
+font-size: 17px;
+font-weight: normal;
+}
+#footlist{
+margin: 8px 0 0 0;
+padding: 0;
+list-style-type: none;
+font-size: 12px;
+color: #807a74;
+line-height: 22px;
+}
+#ftr{
+margin-top: 20px;
+padding: 1;
+position: absolute;
+}
+#ftrfootlist{
+margin: 10px 0 0 30px;
+padding: 0;
+list-style-type: none;
+font-size: 12px;
+color: #807a74;
+line-height: 44px;
+}
+#footercredit{
+width: 950px;
+height: 30px;
+position: absolute;
+top: 220px;
+color: #807a74;
+font-size: 12px;
+}
+#adminnumber{
+font-size: 18px;
+color: white;
+margin-top: 42px;
+}
+
+  /*----------------*/
+ /*   END FOOTER   */
+/*----------------*/
